@@ -67,7 +67,19 @@ main {
     border-bottom-right-radius: 6px;
 }
 
-ul {
-    padding-top: 20px;
+.container {
+    padding-top: 30px;
     margin-left: 70px;
 }
+
+.riga::before {
+    content: "\032C";
+}
+.riga {
+    margin-bottom: 20px;
+}
+
+.element {
+    margin: 10px;
+}
+

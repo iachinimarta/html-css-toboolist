@@ -22,7 +22,7 @@ header {
     padding-left: 20px;
 }
 
-.logo-text {
+#logo-text {
     vertical-align: middle;
     font-size: 40px;
     font-weight: bold;
@@ -73,13 +73,32 @@ main {
 }
 
 .riga::before {
-    content: "\032C";
+    content: "\21A7";
 }
+
 .riga {
     margin-bottom: 20px;
 }
 
 .element {
     margin: 10px;
+    margin-left: 0;
 }
 
+.v, .x { 
+    display: inline-block;
+    background-color: white;
+    width: 20px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.v{
+    border: 1px solid lightgreen;
+    color: lightgreen;
+}
+
+.x {
+    border: 1px solid red;
+    color: red;
+}

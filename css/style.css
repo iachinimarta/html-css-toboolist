@@ -5,9 +5,14 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body {
+    background-color: #afbaf6;
+}
+
 header {
     height: 100px;
-    background-color: aqua;
+    background-color: white;
+    margin-bottom: 50px;
 }
 
 #logo {
@@ -26,4 +31,28 @@ header {
 main {
     width: 70%;
     margin: 0 auto;
+}
+
+.up { 
+    background-color: white;
+    height: 50px;
+    margin-bottom: 3px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+   
+}
+
+.blu {
+    margin-left: 30px;
+    background-color: red;
+}
+
+.blu, .bianco {
+    padding-top: 10px;
+    padding-right: 30px;
+    margin-top: 10px;
+}
+
+.down {
+    background-color: white;
 }
